@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Press+Start+2P&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  background: url(https://4kwallpapers.com/images/walls/thumbs_2t/3811.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.box{
+  box-shadow: 0 0 50px black;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  height:25rem;
+  width:40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  border: 0px solid black;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.quote{
+  font-family: 'Bricolage Grotesque', sans-serif;
+  padding:80px;
+}
+
+.header{
+  text-align:center;
+  font-size: 50px;
+  margin-top:110px;
+}
+
+.new-quote-button{
+  position: absolute;
+  top:80%;
+  bottom:50%;
+  left:47%;
+}
+
+
+#new-quote{
+  margin-top:3;
+  box-shadow: 0 0 50px black;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(5px);
+  height:50px;
+  width:100px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  border-radius: 30px;
+  
+}
